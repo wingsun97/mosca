@@ -1,4 +1,9 @@
-# Setup True IOT mqtt users
+# Build IOT docker image
+```bash
+docker build -t="nms/docker-iot" .
+```
+
+# Setup IOT mqtt users
 
 ## Tracker user
 ```bash

@@ -1,0 +1,10 @@
+version: '2'
+services:
+  mqtt:
+    image: nms/docker-iot
+    restart: always
+    volumes:
+    # NOTE: your data will be stored in ./db
+    - "./db:/db"
+    ports:
+    - "1883:1883"
